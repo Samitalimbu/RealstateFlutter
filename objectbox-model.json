@@ -1,0 +1,170 @@
+{
+    "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+    "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+    "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+    "entities": [
+      {
+        "id": "1:7396607970243363047",
+        "lastPropertyId": "14:77140488986964498",
+        "name": "User",
+        "properties": [
+          {
+            "id": "1:8349550053851588128",
+            "name": "userId",
+            "type": 9,
+            "flags": 2080,
+            "indexId": "1:8673086366255484993"
+          },
+          {
+            "id": "4:408631088515172712",
+            "name": "username",
+            "type": 9
+          },
+          {
+            "id": "5:7600567080006112356",
+            "name": "password",
+            "type": 9
+          },
+          {
+            "id": "7:5734728154781112461",
+            "name": "uId",
+            "type": 6,
+            "flags": 129
+          },
+          {
+            "id": "12:3965322980232776393",
+            "name": "fname",
+            "type": 9
+          },
+          {
+            "id": "13:8504754888133978857",
+            "name": "lname",
+            "type": 9
+          },
+          {
+            "id": "14:77140488986964498",
+            "name": "gender",
+            "type": 9
+          }
+        ],
+        "relations": []
+      },
+      {
+        "id": "2:829568312213596559",
+        "lastPropertyId": "4:8475672463185177281",
+        "name": "Location",
+        "properties": [
+          {
+            "id": "1:2101055510028002889",
+            "name": "locationId",
+            "type": 6,
+            "flags": 129
+          },
+          {
+            "id": "2:1229477863686726978",
+            "name": "id",
+            "type": 9,
+            "flags": 2080,
+            "indexId": "2:7321120085811338052"
+          },
+          {
+            "id": "3:62139938474550522",
+            "name": "name",
+            "type": 9
+          },
+          {
+            "id": "4:8475672463185177281",
+            "name": "properties",
+            "type": 30
+          }
+        ],
+        "relations": []
+      },
+      {
+        "id": "4:339295739807353424",
+        "lastPropertyId": "9:6442345997881238988",
+        "name": "PropertyModel",
+        "properties": [
+          {
+            "id": "1:7198350728923021022",
+            "name": "propertyId",
+            "type": 6,
+            "flags": 129
+          },
+          {
+            "id": "2:487089992206435299",
+            "name": "id",
+            "type": 9,
+            "flags": 2080,
+            "indexId": "4:1142031335200103306"
+          },
+          {
+            "id": "3:280176636808020880",
+            "name": "user",
+            "type": 9
+          },
+          {
+            "id": "4:5852707656877893647",
+            "name": "address",
+            "type": 9
+          },
+          {
+            "id": "5:277753230515972732",
+            "name": "squareFeet",
+            "type": 6
+          },
+          {
+            "id": "6:1082265738775176090",
+            "name": "bedrooms",
+            "type": 6
+          },
+          {
+            "id": "7:4860856926485204167",
+            "name": "bathrooms",
+            "type": 6
+          },
+          {
+            "id": "8:7046694571703602522",
+            "name": "price",
+            "type": 6
+          },
+          {
+            "id": "9:6442345997881238988",
+            "name": "locationId",
+            "type": 9
+          }
+        ],
+        "relations": []
+      }
+    ],
+    "lastEntityId": "4:339295739807353424",
+    "lastIndexId": "4:1142031335200103306",
+    "lastRelationId": "0:0",
+    "lastSequenceId": "0:0",
+    "modelVersion": 5,
+    "modelVersionParserMinimum": 5,
+    "retiredEntityUids": [
+      724668898543702299
+    ],
+    "retiredIndexUids": [],
+    "retiredPropertyUids": [
+      7689552529372126866,
+      7400619578710374699,
+      4546666849303097289,
+      8116610497151813234,
+      1297007926435503503,
+      5601494781913468688,
+      5000436402527303967,
+      4102107497840419522,
+      2714100886335354643,
+      2951941711371110839,
+      6598656263316721628,
+      6785399463391390831,
+      2053871203816627059,
+      400812904493586819,
+      8435321452302267528,
+      8903604710971203745
+    ],
+    "retiredRelationUids": [],
+    "version": 1
+  }
